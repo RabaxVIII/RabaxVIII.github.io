@@ -1,0 +1,89 @@
+*{
+  margin:	0% 0% 0% 0%;
+  padding: 0;
+  }
+
+
+body {
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.top {
+  background-color: #1a508b;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 5%;
+  padding-right: 4%;
+}
+
+.top_left{
+  float: left;
+  width: 80%;
+  font-size: large;
+  color: white;
+}
+
+.top_right{
+  float: left;
+  width: 10%;
+}
+
+.photo{
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+
+.line{
+  background-color: #0d335d;
+  height: 35px;
+  text-align: center;
+  color : white;
+  padding-top: 20px;
+}
+
+/*linklerin renklerini basılsa bile beyaz yaptık*/
+.link:hover , .link:active , .link{
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.main {
+  background-color: #fff3e6;
+  height: 600px;
+  padding-top: 40px;
+}
+
+.square{
+  border-bottom: 2px solid #28527a;
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.box{
+  float: left;
+  width: 40%;
+  height: 80px;
+  margin-top: 20px;
+  padding-left: 6%;
+}
+
+.ikon{
+  width: 50px;
+  height: 50px;
+}
+
+
+h3{
+  color: #0d335d;
+  font-size: 32px;
+}
+h4{
+  color: #1a508b;
+  font-size: 24px;
+}
