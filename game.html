@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+<link rel="stylesheet" href="gamecss.css">
+<script src="gamejs.js"></script>
+
+<title>Rengi Bul</title>
+
+</head>
+<body>
+
+    <div class="menu">
+        <h1>RENGİ BUL</h1>
+        <h2>Zorluk Seçiniz</h2>
+        <br>    
+        <button type="button" onclick="start(9)">Kolay</button>
+        <button type="button" onclick="start(16)">Orta</button>
+        <button type="button" onclick="start(25)">Zor</button>
+
+    </div>
+
+    <div class="top">
+        <h4>Kalan Süre</h4>
+        <p id="timer">60</p>
+        <h4>Skor</h4>
+        <p id="skor">0</p>
+
+    </div>
+
+    <div class="mid">
+
+        <div class="renk"></div>
+
+    </div>
+
+
+    <div class="bottom">
+
+        <div class="table_k">
+            <!-- Tablomuz       -->
+        </div>
+
+
+
+    </div>
+
+    <div class="bitis">
+        <h1> OYUN BİTTİ</h1>
+        <div class="box">
+            <h3> Skorunuz :</h3>
+            <p id="sonuc">0</p>
+            <button type="button" onclick="bitir()">Tekrar Oyna</button>
+
+        </div>
+        
+    </div>
+    
+
+
+</body>
+</html>
