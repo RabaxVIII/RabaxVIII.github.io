@@ -95,6 +95,18 @@ body {
 }
 
 
+.cert:hover , .cert:active , .cert{
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.cert:hover{
+  opacity: 0.8;
+}
+
 h3{
   color: #0d335d;
   font-size: 32px;
