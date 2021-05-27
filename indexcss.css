@@ -95,15 +95,16 @@ body {
 }
 
 
-.cert:hover , .cert:active , .cert{
+.add_link:hover , .add_link:active , .add_link{
   color: black;
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none;
   font-weight:bold;
+  text-decoration: underline;
 }
 
-.cert:hover{
+.add_link:hover{
   opacity: 0.8;
 }
 
