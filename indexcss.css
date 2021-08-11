@@ -9,9 +9,58 @@ body {
  background-color: #B2B1B9;
 }
 
+@media screen and (min-width: 1600px) {
+  .top{
+    height: 180px;
+    font-size: large;
+  }
+  .line{
+    height: 60px;
+
+  }
+  .main_left{
+    float: left;
+    width: 45%;
+  }
+  
+  .main_right{
+    float: left;
+    width: 45%;
+  }
+  .link{
+  margin-left: 20px;
+  margin-right: 200px;
+  }
+}
+@media screen and (max-width:1600px) {
+  .top{
+    height: 320px;
+    font-size: medium;
+  }
+  .top_right{
+    margin-top: 50px;
+  }
+  .line{
+    height: 70px;
+    
+  }
+  .main_left{
+    float: left;
+    width: 90%;
+  }
+  
+  .main_right{
+    float: left;
+    width: 90%;
+  }
+  .link{
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}
+
 .top {
   background-color: #595260;
-  height: 180px;
   padding-top: 40px;
   padding-left: 5%;
   padding-right: 4%;
@@ -19,14 +68,14 @@ body {
 
 .top_left{
   float: left;
-  width: 80%;
-  font-size: large;
+  width: 70%;
   color: white;
 }
 
 .top_right{
   float: left;
-  width: 10%;
+  width: 10;
+  margin-left: 100px;
 }
 
 .photo{
@@ -36,18 +85,23 @@ body {
 }
 
 .line{
+  float: left;
+  width: 100%;
   background-color: #2C2E43;
-  height: 35px;
   text-align: center;
   color : white;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /*linklerin renklerini basılsa bile beyaz yaptık*/
-.link:hover , .link:active , .link{
+.link:hover , .link:active{
   color: white;
   margin-left: 20px;
   margin-right: 20px;
+  text-decoration: none;
+}
+.link{
+  color: white;
   text-decoration: none;
 }
 
@@ -57,15 +111,7 @@ body {
   padding-top: 40px;
 }
 
-.main_left{
-  float: left;
-  width: 45%;
-}
 
-.main_right{
-  float: left;
-  width: 45%;
-}
 
 
 
