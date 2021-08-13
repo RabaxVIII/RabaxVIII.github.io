@@ -55,7 +55,7 @@ body {
   }
   .link{
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 200px;
     }
 }
 
@@ -97,7 +97,7 @@ body {
 .link:hover , .link:active{
   color: white;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 200px;
   text-decoration: none;
 }
 .link{
