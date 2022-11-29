@@ -139,6 +139,9 @@ body {
   margin-left: 5%;
   text-align: center;
   padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0px 20px 10px grey;
+  
 }
 
 .box{
@@ -149,6 +152,7 @@ body {
   background-color: #595260;
   border-radius: 20px;
   float: left;
+  box-shadow: 10px 20px 20px 15px grey;
 }
 .box-left{
   float: left;
@@ -173,7 +177,10 @@ body {
 .skills-mid{
   float: left;
   margin: 30px 10px 20px 0px;
+  padding-left: 30px;
   color: white;
+  text-align: center;
+  align-items: center;
 }
 
 .small-box{
@@ -181,10 +188,11 @@ body {
   border-radius: 20px;
   text-align: center;
   background-color: #595260;
-  width: auto;
+  width: 23%;
   padding: 10px;
   margin: 10px;
   margin-top: 20px;
+  box-shadow: 20px 20px 50px 15px grey;
 }
 
 .add_link:hover , .add_link:active , .add_link{
