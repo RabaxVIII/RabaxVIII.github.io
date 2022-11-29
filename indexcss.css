@@ -11,7 +11,6 @@ body {
 
 @media screen and (min-width: 1600px) {
   .top{
-    height: 180px;
     font-size: large;
   }
   .line{
@@ -31,10 +30,14 @@ body {
   margin-left: 20px;
   margin-right: 200px;
   }
+  .web-line{
+    float: left;
+    margin-left: 100px;
+    height: 10px;
+  }
 }
 @media screen and (max-width:1600px) {
   .top{
-    height: 340px;
     font-size: medium;
   }
   .top_right{
@@ -44,6 +47,7 @@ body {
     height: 100px;
     
   }
+
   .main_left{
     float: left;
     width: 90%;
@@ -58,12 +62,16 @@ body {
     margin-right: 200px;
     }
 }
+/*-----------------------------*/
 
 .top {
   background-color: #595260;
   padding-top: 40px;
   padding-left: 5%;
   padding-right: 4%;
+  padding-bottom: 20px;
+  float: left;
+  height: auto;
 }
 
 .top_left{
@@ -89,8 +97,11 @@ body {
   width: 100%;
   background-color: #2C2E43;
   text-align: center;
+  align-items: center;
   color : white;
   padding-top: 10px;
+  height: auto;
+  padding-bottom: 10px;
 }
 .links{
   float: left;
@@ -113,6 +124,7 @@ body {
   background-color: #B2B1B9;
   height: 600px;
   padding-top: 40px;
+  float: left;
 }
 
 
@@ -130,33 +142,49 @@ body {
 }
 
 .box{
-  width: 95%;
-  height: 80px;
-  margin: 20px 0% 0% 0%;
-  padding-left: 5%;
-  
+  width: 45%;
+  height: 100px;
+  margin: 20px 0% 0% 20px;
+  padding-left: 10px;
+  background-color: #595260;
+  border-radius: 20px;
+  float: left;
 }
 .box-left{
   float: left;
-  width: 210px;
-  padding: 0% 0% 0% 10%;
-  
-}
-.box-right i {
   margin-left: 10px;
 }
 
 .box-right{
   float: left;
-  padding: 25px 0% 0% 10%;
+  padding: 8% 5% 0% 5%;
+  margin-left: 10px;
   width: auto;
 }
 
 .ikon{
-  width: 50px;
-  height: 50px;
+  margin-top: 5px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
 }
 
+.skills-mid{
+  float: left;
+  margin: 30px 10px 20px 0px;
+
+}
+
+.small-box{
+  float: left;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #595260;
+  width: auto;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
 
 .add_link:hover , .add_link:active , .add_link{
   color: black;
