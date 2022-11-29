@@ -160,6 +160,7 @@ body {
   padding: 8% 5% 0% 5%;
   margin-left: 10px;
   width: auto;
+  color:white;
 }
 
 .ikon{
@@ -172,7 +173,7 @@ body {
 .skills-mid{
   float: left;
   margin: 30px 10px 20px 0px;
-
+  color:white;
 }
 
 .small-box{
