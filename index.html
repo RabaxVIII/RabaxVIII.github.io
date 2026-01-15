@@ -120,7 +120,7 @@
                 <h5> Google Developer Community (02/2021 - 03/2021)</h5>
             </div>
             
-            <button class="pdf-btn-left" onclick="downloadPDF()">📄 Download CV as PDF</button>
+
             
         </div>
 
@@ -274,35 +274,9 @@
 
     </div>
     
-    <button class="pdf-btn-mobile" onclick="downloadPDF()">📄 Download CV as PDF</button>
+
     
 
-<script>
-function downloadPDF() {
-  const element = document.querySelector('.main');
-  const opt = {
-    margin: [2, 2, 2, 2],
-    filename: 'Fatih_Yilmaz_CV.pdf',
-    image: { type: 'jpeg', quality: 0.95 },
-    html2canvas: { 
-      scale: 1.5, 
-      allowTaint: true, 
-      useCORS: true,
-      letterRendering: true,
-      windowHeight: 2400
-    },
-    jsPDF: { 
-      orientation: 'landscape', 
-      unit: 'mm', 
-      format: 'a4',
-      compress: true,
-      precision: 10
-    },
-    pagebreak: { mode: 'avoid-all' }
-  };
-  html2pdf().set(opt).from(element).save();
-}
-</script>
 
 </body>
 </html>

@@ -532,6 +532,14 @@ h6{
     width: 100% !important;
   }
   
+  .top {
+    display: none !important;
+  }
+  
+  .line {
+    display: none !important;
+  }
+  
   .main {
     padding: 3px !important;
     width: 100% !important;
@@ -540,15 +548,15 @@ h6{
   
   .main_left {
     padding: 0 3px !important;
-    width: 100% !important;
-    float: none !important;
-    display: none !important;
+    width: 48% !important;
+    float: left !important;
+    display: block !important;
   }
   
   .main_right {
     padding: 0 3px !important;
-    width: 100% !important;
-    float: none !important;
+    width: 48% !important;
+    float: right !important;
     display: block !important;
   }
   
