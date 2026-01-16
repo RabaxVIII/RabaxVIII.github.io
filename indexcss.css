@@ -19,16 +19,16 @@ body {
   }
   .main_left{
     float: left;
-    width: 48%;
-    margin-right: 2%;
-    padding: 0 15px;
+    width: 49.5%;
+    margin-right: 0.5%;
+    padding: 0 8px;
     box-sizing: border-box;
   }
   
   .main_right{
     float: right;
-    width: 48%;
-    padding: 0 15px;
+    width: 49.5%;
+    padding: 0 8px;
     box-sizing: border-box;
   }
   .link{
@@ -280,7 +280,7 @@ body {
 }
 
 .box{
-  width: 45%;
+  width: 31%;
   height: auto;
   min-height: 100px;
   margin: 15px 0% 0% 20px;
@@ -294,6 +294,7 @@ body {
   display: flex;
   align-items: flex-start;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .box:hover {
@@ -345,14 +346,15 @@ body {
   text-align: center;
   background-color: #f0f9ff;
   border: 2px solid #3b82f6;
-  width: 23%;
-  padding: 12px;
-  margin: 8px;
-  margin-top: 15px;
+  width: 22%;
+  padding: 10px;
+  margin: 5px;
+  margin-top: 12px;
   box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
   transition: all 0.3s ease;
   color: #1e3a8a;
   font-weight: 600;
+  box-sizing: border-box;
 }
 
 .small-box:hover {
