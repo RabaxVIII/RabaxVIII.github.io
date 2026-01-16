@@ -300,6 +300,20 @@ body {
 .box:hover {
   transform: translateY(-3px);
 }
+
+/* Mobile responsive for boxes */
+@media screen and (max-width: 1200px) {
+  .box {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box {
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+}
 .box-left{
   float: left;
   margin-left: 10px;
@@ -322,6 +336,14 @@ body {
   margin-bottom: 2px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+}
+
+/* Mobile responsive for box-right */
+@media screen and (max-width: 768px) {
+  .box-right {
+    padding: 8px 8px 0px 8px;
+    width: calc(100% - 110px);
+  }
 }
 
 .ikon{
